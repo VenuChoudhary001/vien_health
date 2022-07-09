@@ -1,0 +1,37 @@
+@import "layout";
+@import "typography";
+.v-5 {
+  width: 100vw;
+  height: 500px;
+}
+.PhoneInput{
+  display: flex;
+  gap: 16px;
+  input{
+    outline: none;
+  }
+  .PhoneInputCountry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    select{
+    
+       max-width: 50px;
+       @media screen and (min-width:700px) {
+        max-width: 100px;
+       }
+    }
+    .PhoneInputCountryIcon{
+      img{
+         width: 30px;
+        // height: 20px;
+        object-fit: contain;
+      }
+      svg{
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}

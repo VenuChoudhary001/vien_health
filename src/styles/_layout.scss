@@ -1,0 +1,32 @@
+.container{
+        margin: 1px auto;
+    overflow-x: hidden;
+    padding: 1.3rem;
+    @media screen and (min-width:500px) {
+        max-width:90vw;
+        padding:0 2rem;
+    }
+    @media screen and (min-width:1601px) {
+        max-width: 1500px;
+        padding:0 2rem;
+
+    }
+    
+
+}
+
+.bg{
+    background: url(../../public/images/bg-2.webp) no-repeat center/cover;
+
+}
+.bg-2{
+    background: url(../../public/images/bg-3.webp) no-repeat center/contain;
+}
+.nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: 1px solid white;
+}

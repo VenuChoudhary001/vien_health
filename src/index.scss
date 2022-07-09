@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Euclid-bold";
+  src: local("Euclid-bold"), url(../public/fonts/EuclidCircularABold.ttf);
+}
+@font-face {
+  font-family: "Euclid-semiBold";
+  src: local("Euclid-semiBold"), url(../public/fonts/EuclidCircularASemiBold.ttf);
+}
+@font-face {
+  font-family: "Euclid-medium";
+  src: local("Euclid-medium"), url(../public/fonts/EuclidCircularAMedium.ttf);
+}
+@font-face {
+  font-family: "Euclid-light";
+  src: local("Euclid-light"), url(../public/fonts/EuclidCircularALight.ttf);
+}
+@font-face {
+  font-family: "Euclid-normal";
+  src: local("Euclid-normal"), url(../public/fonts/EuclidCircularARegular.ttf);
+}
+
+@import "App.scss";
